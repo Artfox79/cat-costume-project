@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+}
+nav {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #323232;
+  letter-spacing:1.5px;
+  margin: 20px 0px 20px 20px;
+}
+
+.About
+{
+  font-family: 'PT Sans Narrow', sans-serif;
+  float: right;
+  margin-left: 25px;
+  font-weight: 100;
+}
+
+.Contact {
+  float: right;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 100;
+}
+
+#batmancat {
+  margin:inherit;
+}
+
+h1 {
+    font-family:'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.875em;
+    margin: 80px 0 45px 0;
+    letter-spacing: 2.5px;
+}
+
+h3 {
+    font-family:'PT Serif', serif;
+    font-weight: 100;
+    text-align: -webkit-match-parent;
+    max-width: 675px;
+    margin-left: 625px;
+    }
+
+
+.kat {
+    color: #00897f;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.box_row {
+  text-align: center;
+}
+
+.box1 {
+       display: inline-block;
+       height:225px;
+       padding-left:30px;
+       padding-right:30px;
+       padding-top: 2px;
+       padding-bottom: 45px;
+       background-color:#EEEEEE;
+       margin:80px 80px 80px 80px;
+}
+
+
+.Mavis {
+    color: #00897f;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+
+
+p {
+    font-family:'PT Serif', serif;
+    font-size: .875em;
+    line-height: 1.75em;
+    width: 230px;
+}
+
+.cat_images {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  margin-right: 55px;
+  }
+
+.box_row_bottom {
+  display: inline-block;
+  background-color: #EEEEEE;
+  width:100%;
+  margin-top: 80px;
+  height: 475px;
+  text-align: center;
+}
+
+.boxhours {
+  display: inline-block;
+  height:150px;
+  padding-left:30px;
+  padding-right:30px;
+  padding-top: 2px;
+  padding-bottom: 45px;
+  background-color:#ffffff;
+  width: 250px;
+  margin-bottom: 80px;
+  margin-top: 45px;
+  text-align: center;
+}
+
+
+
+.hours {
+  color: #00897f;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 0.95em;
+  text-transform: uppercase;
+}
+
+.hourdetails {
+  font-family:'PT Serif' , serif;
+  font-size: 0.75em;
+  color: #323232;
+  width: 100%;
+  text-align:-webkit-left;
+  text-transform: uppercase;
+  }
+
+  .contact_info {
+  color: #00897f;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+  }
+
+  .boxcontact {
+    display: inline-block;
+    height:150px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 2px;
+    padding-bottom: 45px;
+    background-color:#ffffff;
+    width: 250px;
+    margin-left: 60px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 45px;
+}
+
+.contactdetails {
+  font-family:'PT Serif' , serif;
+  font-size: 0.75em;
+  color: #323232;
+  width: 100%;
+  text-align:-webkit-left;
+  text-transform: uppercase;
+}
+
+.kats-map {
+  width: 115%;
+}
+
+.box5 {
+  display: inline-block;
+  background-color: #323232;
+  width: 100%;
+  height: 125px;
+}
+
+footer h1 {
+  font-family:'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1.25em;
+  margin: 50px 0px 200px 0px;
+}
+
+
+/* On devices wider than 660px */
+@media(min-width: 660px) {
+}
+
+/* On devices wider than 940px */
+@media(min-width: 940px) {
+}
