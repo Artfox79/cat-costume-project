@@ -107,10 +107,7 @@ p {
 .boxhours {
   display: inline-block;
   height:150px;
-  padding-left:30px;
-  padding-right:30px;
-  padding-top: 2px;
-  padding-bottom: 45px;
+  padding-bottom: 30px;
   background-color:#ffffff;
   width: 250px;
   margin-bottom: 80px;
@@ -123,7 +120,7 @@ p {
 .hours {
   color: #00897f;
   font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 0.95em;
+  font-size: 1em;
   text-transform: uppercase;
 }
 
@@ -134,12 +131,13 @@ p {
   width: 100%;
   text-align:-webkit-left;
   text-transform: uppercase;
+  line-height: 2em;
   }
 
   .contact_info {
   color: #00897f;
   font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 1.25em;
+  font-size: 1em;
   font-weight: bold;
   text-transform: uppercase;
   }
@@ -147,16 +145,11 @@ p {
   .boxcontact {
     display: inline-block;
     height:150px;
-    padding-left:30px;
-    padding-right:30px;
-    padding-top: 2px;
-    padding-bottom: 45px;
+    padding-bottom: 30px;
     background-color:#ffffff;
     width: 250px;
     margin-left: 60px;
     text-align: center;
-    margin-bottom: 80px;
-    margin-top: 45px;
 }
 
 .contactdetails {
@@ -164,8 +157,15 @@ p {
   font-size: 0.75em;
   color: #323232;
   width: 100%;
+  span: color #f26522;
   text-align:-webkit-left;
   text-transform: uppercase;
+  line-height: 2em;
+}
+
+.tab {
+  text-indent: 55px;
+  color: #f26522;
 }
 
 .kats-map {
