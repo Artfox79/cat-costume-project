@@ -1,17 +1,20 @@
 body {
   margin: 0;
 }
+
 nav {
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: bold;
   font-size: 1.5em;
   color: #323232;
-  letter-spacing:1.5px;
-  margin: 20px 0px 20px 20px;
+  letter-spacing: 1.5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
-.About
-{
+.About {
   font-family: 'PT Sans Narrow', sans-serif;
   float: right;
   margin-left: 25px;
@@ -25,33 +28,42 @@ nav {
 }
 
 #batmancat {
-  margin:inherit;
+  margin: inherit;
+}
+
+#mobilecat {
+  display: none;
+}
+
+#mobilecatmap {
+  display: none;
 }
 
 h1 {
-    font-family:'PT Sans Narrow', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.875em;
-    margin: 80px 0 45px 0;
-    letter-spacing: 2.5px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.875em;
+  letter-spacing: 2.5px;
+  margin: 80px 0px 80px 0px;
 }
 
 h3 {
-    font-family:'PT Serif', serif;
-    font-weight: 100;
-    text-align: -webkit-match-parent;
-    max-width: 675px;
-    margin-left: 450px;
-    }
-
+  font-family: 'PT Serif', serif;
+  font-weight: 100;
+  text-align: -webkit-match-parent;
+  max-width: 675px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
 
 .kat {
-    color: #00897f;
-    text-align: center;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 1em;
-    text-transform: uppercase;
+  color: #00897f;
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
 }
 
 .box_row {
@@ -59,63 +71,59 @@ h3 {
 }
 
 .box1 {
-       display: inline-block;
-       height:225px;
-       padding-left:30px;
-       padding-right:30px;
-       padding-top: 2px;
-       padding-bottom: 45px;
-       background-color:#EEEEEE;
-       margin:80px 80px 80px 80px;
+  display: inline-block;
+  height: 225px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 2px;
+  padding-bottom: 45px;
+  background-color: #EEEEEE;
+  margin: 80px 80px 80px 80px;
 }
 
-
 .Mavis {
-    color: #00897f;
-    text-align: center;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 1em;
-    text-transform: uppercase;
-  }
-
+  color: #00897f;
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+}
 
 p {
-    font-family:'PT Serif', serif;
-    font-size: .875em;
-    line-height: 1.75em;
-    width: 230px;
+  font-family: 'PT Serif', serif;
+  font-size: .875em;
+  line-height: 1.75em;
+  width: 230px;
 }
 
 .cat_images {
   text-align: center;
+  max-height: -webkit-fill-available;
 }
 
 .img-circle {
   border-radius: 50%;
   margin-right: 55px;
-  }
+}
 
 .box_row_bottom {
   display: inline-block;
   background-color: #EEEEEE;
-  width:100%;
+  width: 100%;
   margin-top: 80px;
-  height: 475px;
+  height: auto;
   text-align: center;
 }
 
 .boxhours {
   display: inline-block;
-  height:150px;
+  height: 150px;
   padding-bottom: 30px;
-  background-color:#ffffff;
+  background-color: #ffffff;
   width: 250px;
-  margin-bottom: 80px;
-  margin-top: 45px;
   text-align: center;
+  margin-bottom: 80px;
 }
-
-
 
 .hours {
   color: #00897f;
@@ -125,40 +133,40 @@ p {
 }
 
 .hourdetails {
-  font-family:'PT Serif' , serif;
+  font-family: 'PT Serif', serif;
   font-size: 0.75em;
   color: #323232;
   width: 100%;
-  text-align:-webkit-left;
+  text-align: -webkit-left;
   text-transform: uppercase;
   line-height: 2em;
-  }
+}
 
-  .contact_info {
+.contact_info {
   color: #00897f;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1em;
   font-weight: bold;
   text-transform: uppercase;
-  }
+}
 
-  .boxcontact {
-    display: inline-block;
-    height:150px;
-    padding-bottom: 30px;
-    background-color:#ffffff;
-    width: 250px;
-    margin-left: 60px;
-    text-align: center;
+.boxcontact {
+  display: inline-block;
+  height: 150px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+  width: 250px;
+  margin-left: 60px;
+  text-align: center;
 }
 
 .contactdetails {
-  font-family:'PT Serif' , serif;
+  font-family: 'PT Serif', serif;
   font-size: 0.75em;
   color: #323232;
   width: 100%;
   span: color #f26522;
-  text-align:-webkit-left;
+  text-align: -webkit-left;
   text-transform: uppercase;
   line-height: 2em;
 }
@@ -169,28 +177,119 @@ p {
 }
 
 .kats-map {
-  width: 115%;
+  width: 100% height:auto;
 }
 
 .box5 {
   display: inline-block;
   background-color: #323232;
   width: 100%;
+  margin: auto;
 }
 
 footer h1 {
-  font-family:'PT Sans Narrow', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-weight: bold;
   color: #ffffff;
   font-size: 1.25em;
-  padding-bottom: 80px;
 }
 
+/* for tablets */
 
-/* On devices wider than 660px */
-@media(min-width: 660px) {
+@media(max-width: 950px) {
+  .box_row_bottom {
+    margin-top: 20px;
+  }
+  h1 {
+    margin: 20px 0px 20px 0px;
+  }
+  .box1 {
+    margin: 0px 0px 20px 0px;
+  }
+  .boxcontact {
+    display: none;
+  }
+  .cat_images :first-child {
+    display: none;
+  }
+  .img-circle {
+    margin: auto;
+  }
 }
 
-/* On devices wider than 940px */
-@media(min-width: 940px) {
+/* On devices smaller than 390px */
+
+@media(max-width: 400px) {
+  h3 {
+    padding-left: 30px;
+  }
+  .About {
+    display: none;
+  }
+  .Contact {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  h1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.5em;
+    margin: auto;
+  }
+  #batmancat {
+    display: none;
+  }
+  .mobilecat {
+    display: block;
+    z-index: 1;
+  }
+  .mobilecat :last-child {
+    z-index: 2;
+    position: absolute;
+    top: 15;
+    left: 40;
+  }
+  .box_row_bottom {
+    margin: auto;
+  }
+  .boxcontact {
+    margin: auto;
+  }
+  .box1 {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+
+  h2 {
+    margin-right: 60px;
+  }
+  .cat_images :first-child {
+    display: none;
+  }
+  .cat_images :nth-child(2) {
+    display: none;
+  }
+  .img-circle {
+    margin: 20px;
+  }
+
+  .boxhours {
+    display: block;
+    background-color: inherit;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+
+  .boxcontact {
+    display: block;
+    background-color: inherit;
+    text-align: center;
+  }
+  .touch :only-child {
+    display: none;
+  }
+
 }
